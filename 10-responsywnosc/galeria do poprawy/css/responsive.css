@@ -1,9 +1,70 @@
 #gallery {
     width: 100%;
 }
-figure {
-    width: 30%;
+
+/*
+@media screen and (max-width:992px) {
+    figure {
+        width: 100%;
+    }
 }
+
+@media screen and (max-width:768px) {
+    figure {
+        width: 100%;
+    }
+}
+@media screen and (max-width:480px) {
+    figure {
+        width: 100%;
+    }
+}
+*/
+
+@media screen and (max-width:480px) {
+    
+    figure {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    figure {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    figure {
+        width: 49%;
+    }
+}
+
+@media screen and (min-width:993px) {
+    figure {
+        width: 33%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 @media all and (max-width:992px) {
     #gallery  {
         width: 100%;
@@ -30,3 +91,4 @@ figure {
         10%;
     }
 }
+*/
