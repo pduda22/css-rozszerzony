@@ -1,0 +1,30 @@
+* {
+    background-color: aqua;
+}
+img {
+    height: 200px;
+    
+}
+.rotate img {
+    transform: rotate(180deg);
+}
+.translate img {
+    transform: translate(300px, 300px);
+}
+.scale img:hover {
+    transform: scale(1.2);
+    
+}
+.animation img {
+    animation-name: resize;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes resize {
+    0%, 100% {
+    height: 300px;
+}
+50% {
+    height: 500px;
+}
+}
